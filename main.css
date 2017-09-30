@@ -33,3 +33,95 @@ html {
     margin: 5px;
     text-align: left;
 }
+
+.progress-page {
+    width: 100vw;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.active-goals-section {
+    height: 400px;
+}
+
+h1,
+h3 {
+    color: #2ecc71;
+}
+
+.goal-progress-bars {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.progress-bar {
+    height: 40px;
+}
+
+.progress {
+    margin: 5px;
+    text-align: center;
+    width: 150px;
+    color: white;
+    background-color: #888;
+    position: relative;
+}
+
+.progress-value {
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    color: white;
+    font-size: 1.5em;
+}
+
+.list-group {
+    max-height: 350px;
+    height: 100%;
+    overflow: scroll;
+    display: block;
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.avatar {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.badge-pill {
+    float: right;
+    margin-left: 25px;
+}
+.btn.btn-success:active {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    outline: none;
+  }
+  .completed-header {
+      background-color: #5cb85c;
+      color: white;
+      
+  }
+  .completed-card {
+    border: 3px solid #5cb85c;
+    height: 400px;
+  }
