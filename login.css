@@ -3,13 +3,9 @@ html, body {
     width: 100vw;
     overflow-x: hidden;
     color: #444;
+    background: url("mountains.jpg")
 }
-.background-image {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: .8;
-}
+
 ::-webkit-input-placeholder { 
     color: rgba(255, 255, 255, 0.9);
 }
@@ -24,9 +20,7 @@ p.form-title
     text-transform: uppercase;
     letter-spacing: 4px;
 }
-.wrap {
-    margin-top: 50px;
-}
+
 .avatar {
     display: block;
     margin: auto;

@@ -1,4 +1,35 @@
-.navbar {
-    background-color: #888;
-    color: rgba(255, 255, 255, 0.93);
+body,
+html {
+    background: url("mountains.jpg");
+    width: 100vw;
+}
+
+.goals,
+.goal-progress,
+.social {
+    background-color: #444;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.new-container {
+    margin: auto;
+    margin-top: 5px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.navbar-nav>li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card {
+    margin: 5px;
+    text-align: left;
 }
