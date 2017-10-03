@@ -136,7 +136,7 @@ h3 {
 }
 
 .visualizations {
-    height: 300px;
+    min-height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -145,4 +145,19 @@ h3 {
 
 .main-3 {
     background-color: white;
+    height: 500px;
+    padding: 100px;
+}
+.profile {
+    display: block;
+    margin: 0px auto;
+    height: 200px;  
+    border-radius: 50%;
+}
+.profile-content {
+    margin-top: 50px;
+}
+.main-3 {
+    margin: 0px auto;
+    border-radius: 5px;
 }
