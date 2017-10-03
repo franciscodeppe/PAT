@@ -49,7 +49,7 @@ html {
     height: 400px;
 }
 
-h1,
+h1, h2,
 h3 {
     color: #2ecc71;
 }
@@ -110,18 +110,35 @@ h3 {
     float: right;
     margin-left: 25px;
 }
+
 .btn.btn-success:active {
     color: #fff;
     background-color: #5cb85c;
     border-color: #5cb85c;
     outline: none;
-  }
-  .completed-header {
-      background-color: #5cb85c;
-      color: white;
-      
-  }
-  .completed-card {
+}
+
+.completed-header {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.completed-card {
     border: 3px solid #5cb85c;
     height: 400px;
-  }
+}
+
+.goal-progress-tracker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.visualizations {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
