@@ -1,0 +1,87 @@
+html,
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    font-size: 1em;        
+    font-family: 'Palanquin Dark', sans-serif;
+}
+/*Landing Page*/
+/* Fonts
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Mallanna', sans-serif;
+ */
+/* App JS Header ---------------------- */
+.app-header {
+    margin-bottom: 45px;
+}
+
+
+/*Main*/
+.mountains {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.goals,
+.goal-progress-container {
+    background-color: #444;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+h1,
+h3 {
+    color: #2ecc71;
+}
+.list-group {
+    max-height: 350px;
+    height: 100%;
+    overflow: scroll;
+    display: block;
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.avatar {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.badge-pill {
+    float: right;
+    margin-left: 25px;
+}
+
+.btn.btn-success:active {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    outline: none;
+}
+
+.completed-header {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.completed-card {
+    border: 3px solid #5cb85c;
+    height: 400px;
+}
+
+.main-page-container {
+    margin-left: 25px;
+    margin-right: 25px;
+}

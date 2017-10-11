@@ -1,0 +1,16 @@
+.progress-page {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    
+}
+.jumbotron {
+    background-color: #726c6c;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.active-goals-section {
+    height: 400px;
+}
